@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        display: flex;
+        width: 100%;
+      }
+      ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+      }
+
+      li {
+        float: left;
+      }
+
+      li {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      input {
+        padding-top: 7px;
+        padding-bottom: 17px;
+        float: left;
+      }
+
+      li not(.active) {
+        margin: auto;
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #800080;
+      }
+      #cart {
+        display: flex;
+        flex-direction: column; 
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="active">CFH</li>
+        <li>Menu</li>
+        <li>Github</li>
+        <li>Contact</li>
+        <li>Google</li>
+        <input type="text" id="fname" name="fname" />
+        <img
+          src="http://www.clker.com/cliparts/n/U/H/1/H/u/search-icon-white-one-hi.png"
+          width="12"
+        />
+        <div id="cart">
+          <li>LOG IN/DIRECTIONS</li>
+          <li>VIEW CART</li>
+          <img src="https://ak8.picdn.net/shutterstock/videos/1006608868/thumb/7.jpg" width="30"
+          />
+        </div>
+      </ul>
+    </nav>
+  </body>
+</html>
